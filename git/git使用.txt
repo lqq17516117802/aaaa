@@ -1,0 +1,18 @@
+1.git init 初始化
+2.git config --global user.name xiaojun  
+3.git config --global user.email 17621065326@163.com
+4.git add ./ 添加到仓库门口
+5.git commit -m “版本描述” 仓库门口到仓库
+6.git commit -a -m “版本描述”
+  git commit --all -m “版本描述” 直接添加到仓库
+7.git status 状态信息
+8.git log 日志
+  git log --oneline
+9.git reset --hard Head版本号数字//一般不用这个
+  git reset --hard版本状态码
+  版本回退
+10.git reflog 切换记录
+11.git branch 分支名字（随便起 eg:dev）
+12 git checkout 分支名字//切换到当前分支
+13 git merge 分支名字//合并分支
+14 git push url 分支名字
